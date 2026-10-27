@@ -1,0 +1,20 @@
+/* initial state */
+div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    /* transition is short hand which include 1- what we want to change 2- duration 3- timing function 4- delay */
+    /* transition-duration: 2s; */
+    /* transition-delay: 1s; */
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: margin-top 2s ease-in-out 0.2;
+    /* transition-timing-function: ; */
+}
+
+/* final state */
+div:hover{
+    /* background-color: blue;
+    border-radius: 50%; */
+    margin-top: 400px;
+}
